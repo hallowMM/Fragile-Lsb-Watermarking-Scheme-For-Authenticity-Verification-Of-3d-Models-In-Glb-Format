@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{a77f6e4f-bd9f-4821-a29b-b0ac9f88ef8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stb_image">
+      <UniqueIdentifier>{eca63116-8c66-4fb8-9c8d-8a92d876bdcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF_Model">
+      <UniqueIdentifier>{85777240-41ae-43a7-9c14-aac65daaa7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tiny_glft_loader">
+      <UniqueIdentifier>{19eb9e9d-668c-4222-bf98-aff187974ce8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gltf_model.cpp">
+      <Filter>GLTF_Model</Filter>
+    </ClCompile>
+    <ClCompile Include="tiny_gltf.cc">
+      <Filter>tiny_glft_loader</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gltf_model.h">
+      <Filter>GLTF_Model</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_write.h">
+      <Filter>stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>tiny_glft_loader</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_gltf.h">
+      <Filter>tiny_glft_loader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
