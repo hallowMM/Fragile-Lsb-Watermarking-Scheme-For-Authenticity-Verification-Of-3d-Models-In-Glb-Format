@@ -48,7 +48,6 @@ imgui.ini
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -58,7 +57,7 @@ imgui.ini
 *.lai
 *.la
 *.a
-*.lib
+
 
 # Executables
 *.exe
